@@ -7,8 +7,9 @@
   <artifactId>AsyncToSync</artifactId>
   <version>1.0.0</version>
   <name>AsyncToSync</name>
-  <description>JPaperCuts projects to convert asynchronous call to synchronous call. @nawaman</description>
-  <url>http://nawaman.net/projects/JPaperCuts/${project.artifactId}</url>
+  <description>AsyncToSync is a utility class that make it easy, convenient and declarative way to convert asynchronous
+  operation to a synchronous one. @nawaman</description>
+  <url>http://nawaman.net/projects/${project.artifactId}</url>
   <organization>
     <name>Direct Solution Software Builders</name>
     <url>http://dssbsoft.com</url>
@@ -77,7 +78,7 @@
           <includes>
             <include>**/*</include>
           </includes>
-          <repositoryName>JPaperCuts</repositoryName>
+          <repositoryName>AsyncToSync</repositoryName>
           <repositoryOwner>NawaMan</repositoryOwner>
         </configuration>
         <executions>

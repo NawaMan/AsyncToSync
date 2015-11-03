@@ -2,7 +2,7 @@ Repository
 
     <repository>
         <id>AsyncToSync</id>
-        <url>https://raw.github.com/NawaMan/JPaperCuts/tree/mvn-repo</url>
+        <url>https://raw.github.com/NawaMan/AsyncToSync/tree/mvn-repo</url>
         <snapshots>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
