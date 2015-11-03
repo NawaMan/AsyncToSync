@@ -1,0 +1,21 @@
+AsyncToSync is a utility class that make it easy, convenient and declarative way to convert asynchronous operation to a
+  synchronous one.
+Of course, if you just need to make an asynchronous call synchronous, just call {@link Future#get()}.
+There is no need for this class.
+
+This class provide a declarative way to handle
+- Timeout
+- Exception from the asynchronous call
+- Cancellation
+- Interrupt from the asynchronous call
+- Interrupt from the wait
+- Run another asynchronous code (will be terminated after the main code completes) for something like
+  - Conditional cancellation
+  - Progress
+
+AsyncToSync is distributed under Creative Commons licenses.
+You may make use, modify, distribute the source code without any restrictions.
+You are only asked to voluntarily credit "Nawa Manusitthipol (@nawaman)".
+
+Enjoy coding.
+@nawaman

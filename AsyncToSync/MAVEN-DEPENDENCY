@@ -1,0 +1,19 @@
+Repository
+
+    <repository>
+        <id>AsyncToSync</id>
+        <url>https://raw.github.com/NawaMan/JPaperCuts/tree/mvn-repo</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+    </repository>
+
+
+Dependency
+
+    <dependency>
+      <groupId>nawaman</groupId>
+      <artifactId>AsyncToSync</artifactId>
+      <version>1.0.0</version>
+    </dependency>
