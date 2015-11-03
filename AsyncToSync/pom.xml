@@ -78,7 +78,7 @@
           <includes>
             <include>**/*</include>
           </includes>
-          <repositoryName>AsyncToSync</repositoryName>
+          <repositoryName>${project.artifactId}</repositoryName>
           <repositoryOwner>NawaMan</repositoryOwner>
         </configuration>
         <executions>
